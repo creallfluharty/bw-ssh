@@ -1,0 +1,10 @@
+[project]
+name = "bw-ssh"
+version = "0.1.0"
+description = "Add Keys to an SSH Agent from the Bitwarden CLI"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+bw-ssh = "main:main"
